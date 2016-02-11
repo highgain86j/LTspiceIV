@@ -1,0 +1,38 @@
+Version 4
+SymbolType CELL
+LINE Normal 96 -112 -96 -112 3
+LINE Normal 96 112 -96 112 3
+LINE Normal -96 112 -96 -112 3
+LINE Normal 96 -112 96 112 3
+LINE Normal -96 -64 -80 -64
+LINE Normal -96 64 -80 64
+LINE Normal 8 -72 8 -64
+LINE Normal 24 -72 8 -72
+LINE Normal 24 -64 24 -72
+LINE Normal 24 72 24 64
+LINE Normal 8 72 24 72
+LINE Normal 8 64 8 72
+LINE Normal 16 -72 16 -112
+LINE Normal 16 112 16 72
+LINE Normal 24 72 8 64
+LINE Normal 8 72 24 64
+LINE Normal 24 -64 8 -72
+LINE Normal 24 -72 8 -64
+CIRCLE Normal 80 64 -48 -64
+ARC Normal -64 64 -96 32 -80 64 -80 32
+ARC Normal -64 32 -96 0 -80 32 -80 0
+ARC Normal -64 0 -96 -32 -80 0 -80 -32
+ARC Normal -64 -32 -96 -64 -80 -32 -80 -64
+TEXT 16 0 Center 2 DM
+PIN 16 -112 TOP 8
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 16 112 BOTTOM 8
+PINATTR PinName H
+PINATTR SpiceOrder 2
+PIN -96 -64 LEFT 8
+PINATTR PinName C
+PINATTR SpiceOrder 3
+PIN -96 64 LEFT 8
+PINATTR PinName D
+PINATTR SpiceOrder 4

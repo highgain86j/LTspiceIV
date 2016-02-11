@@ -1,0 +1,22 @@
+Version 4
+SymbolType CELL
+LINE Normal -16 112 -16 96
+LINE Normal 40 -4 8 0
+LINE Normal 8 0 40 4
+LINE Normal 96 -112 96 112 3
+LINE Normal -16 -112 -16 -96
+LINE Normal -128 -112 96 -112 3
+LINE Normal -128 112 96 112 3
+LINE Normal -128 -112 -128 112 3
+LINE Normal 96 0 8 0
+RECTANGLE Normal 8 96 -40 -96
+TEXT -80 0 VCenter 2 Variable Resistor
+PIN 96 0 NONE 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 3
+PIN -16 -112 NONE 8
+PINATTR PinName Vout1
+PINATTR SpiceOrder 4
+PIN -16 112 NONE 8
+PINATTR PinName Vout2
+PINATTR SpiceOrder 1

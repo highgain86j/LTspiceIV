@@ -1,0 +1,24 @@
+.subckt Xfmr P1 P2 S1 S2  params: 
++ Npri=300 Nsec=30              ; number of turns for primary and secondary (10:1)
++ L=1u     K=0.95               ; single turn winding inductance and coupling factor 
++ Rs=1u    Rp=10   Cp=1u        ; single turn series/parallel winding parasitics
+*
+* Derived Parameters
+.param Lm=K*L Ls=(1-K)*L        ; single turn magnetizing and leakage inductances
++ Np2=Npri**2 Ns2=Nsec**2       ; turns squared for primary and secondary
+*
+* Primary Winding (Np turns)
+Cp P1 P2 {Cp/Np2} Rpar={Rp*Np2} ; parallel capacitance and resistance
+Lp P1 n1 {Ls*Np2} Rser={Rs*Np2} ; series leakage inductance and resistance
+Ep n1 n2 n3 0 {Np}              ; reflected magnetizing voltage = L*di/dt
+Vp n2 P2 0                      ; primary winding current sense
+* Magnetizing Inductance (1 turn)
+Fp  0 n3 Vp {Np}                ; ampere-turns reflected from primary winding
+Lm  0 n3 {Lm} Rser=0            ; ideal magnetizing inductance (for 1 turn)
+Fs  0 n3 Vs {Ns}                ; ampere-turns reflected from secondary winding
+* Secondary Winding (Ns turns)
+Vs n4 S2 0                      ; secondary winding current sense
+Es n5 n4 N3 0 {Ns}              ; reflected magnetizing voltage = L*di/dt
+Ls S1 n5 {Ls*Ns2} Rser={Rs*Np2} ; series leakage inductance and resistance
+Cs S1 S2 {Cp/Ns2} Rpar={Rp*Np2} ; parallel capacitance and resistance
+.ends Xfmr

@@ -1,0 +1,82 @@
+Version 4
+SymbolType CELL
+LINE Normal -80 -4 -48 -4
+LINE Normal -80 4 -48 4
+LINE Normal -47 -10 -53 -10
+LINE Normal -50 -7 -50 -13
+LINE Normal -92 -112 -92 -100 3
+LINE Normal 92 -100 92 -112 3
+LINE Normal -92 112 -92 100 3
+LINE Normal 92 100 92 112 3
+LINE Normal 0 -4 32 -4
+LINE Normal 0 4 32 4
+LINE Normal 33 -10 27 -10
+LINE Normal 30 -7 30 -13
+LINE Normal -92 92 -92 -92 3
+LINE Normal 92 -92 92 92 3
+LINE Normal -24 -32 -8 -28
+LINE Normal -40 -20 -8 -28
+LINE Normal -40 -20 -8 -12
+LINE Normal -40 -4 -8 -12
+LINE Normal -40 -4 -8 4
+LINE Normal -40 12 -8 4
+LINE Normal -40 12 -8 20
+LINE Normal -40 28 -8 20
+LINE Normal -40 28 -24 32
+LINE Normal 56 -32 72 -28
+LINE Normal 40 -20 72 -28
+LINE Normal 40 -20 72 -12
+LINE Normal 40 -4 72 -12
+LINE Normal 40 -4 72 4
+LINE Normal 40 12 72 4
+LINE Normal 40 12 72 20
+LINE Normal 40 28 72 20
+LINE Normal 40 28 56 32
+LINE Normal -65 -96 -88 -96
+LINE Normal -25 -96 -63 -96
+LINE Normal 15 -96 -23 -96
+LINE Normal 55 -96 17 -96
+LINE Normal 88 -96 57 -96
+LINE Normal -65 96 -88 96
+LINE Normal -25 96 -63 96
+LINE Normal 15 96 -23 96
+LINE Normal 55 96 17 96
+LINE Normal 88 96 57 96
+LINE Normal -64 -4 -64 -95
+LINE Normal -64 95 -64 4
+LINE Normal -24 95 -24 32
+LINE Normal -24 -95 -24 -32
+LINE Normal 16 -4 16 -95
+LINE Normal 16 95 16 4
+LINE Normal 56 32 56 95
+LINE Normal 56 -95 56 -32
+LINE Normal 92 -112 -92 -112 3
+LINE Normal -92 112 92 112 3
+CIRCLE Normal -88 -92 -96 -100
+CIRCLE Normal 88 -92 96 -100
+CIRCLE Normal -65 -95 -63 -97
+CIRCLE Normal 15 -95 17 -97
+CIRCLE Normal -25 -95 -23 -97
+CIRCLE Normal 55 -95 57 -97
+CIRCLE Normal -88 100 -96 92
+CIRCLE Normal 88 100 96 92
+CIRCLE Normal -65 97 -63 95
+CIRCLE Normal 15 97 17 95
+CIRCLE Normal -25 97 -23 95
+CIRCLE Normal 55 97 57 95
+TEXT -112 0 VCenter 2 Caps
+PIN -96 -96 NONE 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN 96 -96 NONE 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN -112 0 NONE 8
+PINATTR PinName 6
+PINATTR SpiceOrder 6
+PIN -96 96 NONE 8
+PINATTR PinName 5
+PINATTR SpiceOrder 5
+PIN 96 96 NONE 8
+PINATTR PinName 7
+PINATTR SpiceOrder 7

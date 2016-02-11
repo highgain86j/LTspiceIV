@@ -1,0 +1,18 @@
+Version 4
+SymbolType CELL
+LINE Normal -112 112 -112 -112 3
+LINE Normal 112 -112 112 112 3
+LINE Normal 0 -32 0 -112
+LINE Normal 0 32 0 112
+LINE Normal 0 -14 0 -30
+LINE Normal -8 -22 8 -22
+LINE Normal -8 22 8 22
+LINE Normal 112 -112 -112 -112 3
+LINE Normal 112 112 -112 112 3
+CIRCLE Normal 32 32 -32 -32
+PIN 0 112 NONE 8
+PINATTR PinName V-
+PINATTR SpiceOrder 3
+PIN 0 -112 NONE 8
+PINATTR PinName V+
+PINATTR SpiceOrder 4

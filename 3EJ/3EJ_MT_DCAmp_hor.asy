@@ -1,0 +1,18 @@
+Version 4
+SymbolType CELL
+LINE Normal 112 -112 112 112 3
+LINE Normal 16 16 -16 16
+LINE Normal -112 -112 112 -112 3
+LINE Normal 112 112 -112 112 3
+LINE Normal -112 112 -112 -112 3
+LINE Normal 32 0 112 0
+LINE Normal -32 0 -112 0
+CIRCLE Normal 32 32 -32 -32
+TEXT 0 -64 Center 2 DC-Ampmeter
+TEXT 0 0 Center 2 A
+PIN 112 0 NONE 8
+PINATTR PinName IN1
+PINATTR SpiceOrder 1
+PIN -112 0 NONE 8
+PINATTR PinName IN2
+PINATTR SpiceOrder 2

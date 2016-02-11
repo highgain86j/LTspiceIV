@@ -1,0 +1,6 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -112 112 -112 -112 3
+LINE Normal 112 -112 112 112 3
+LINE Normal -112 -112 112 -112 3
+LINE Normal 112 112 -112 112 3

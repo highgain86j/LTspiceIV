@@ -1,0 +1,40 @@
+Version 4
+SymbolType CELL
+LINE Normal -112 -112 112 -112 3
+LINE Normal 112 112 -112 112 3
+LINE Normal 112 -112 112 112 3
+LINE Normal -112 -112 -112 112 3
+LINE Normal 112 0 0 -112
+LINE Normal 0 112 -112 0
+LINE Normal 112 0 0 112
+LINE Normal 0 -112 -112 0
+LINE Normal 24 -56 56 -88
+LINE Normal 72 -40 24 -56
+LINE Normal 56 -88 72 -40
+LINE Normal 56 -24 88 -56
+LINE Normal 24 56 56 88
+LINE Normal 72 40 24 56
+LINE Normal 56 88 72 40
+LINE Normal 56 24 88 56
+LINE Normal -56 24 -88 56
+LINE Normal -40 72 -56 24
+LINE Normal -88 56 -40 72
+LINE Normal -24 56 -56 88
+LINE Normal -88 -56 -56 -24
+LINE Normal -40 -72 -88 -56
+LINE Normal -56 -24 -40 -72
+LINE Normal -56 -88 -24 -56
+TEXT 0 -8 Center 2 Full-wave
+TEXT 0 16 Center 2 rectifier
+PIN 0 -112 NONE 8
+PINATTR PinName 8
+PINATTR SpiceOrder 1
+PIN 112 0 NONE 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN 0 112 NONE 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4
+PIN -112 0 NONE 8
+PINATTR PinName 7
+PINATTR SpiceOrder 7
